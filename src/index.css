@@ -18,3 +18,23 @@ a {
 a:visited {
   color: #807d88;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  height: 55px;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.brand {
+  margin-left: .45rem;
+  font-weight: 500;
+  font-size: .9rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.02rem;
+}
+
