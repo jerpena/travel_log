@@ -19,11 +19,25 @@ a:visited {
   color: #807d88;
 }
 
+section {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+  max-width: 700px;
+  min-width: 430px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 20px;
+  border: 1px solid #F5F5F5;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F55A5A;
+  background-color: #f73a3a;
   color: #FFFFFF;
   height: 55px;
   width: 100%;
@@ -38,3 +52,70 @@ a:visited {
   letter-spacing: -0.02rem;
 }
 
+.card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.img-parent {
+  border-radius: 5px;
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.img-parent>img {
+  height: 100%;
+}
+
+.card-info {
+  color: #2B283A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location,
+.date,
+.description {
+  font-size: .7rem;
+  line-height: .75rem;
+}
+
+.location-parent {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  text-transform: uppercase;
+  letter-spacing: 0.17rem;
+  margin-right: .75rem;
+  margin-left: .25rem;
+}
+
+.location-icon {
+  color: #F55A5A;
+  font-size: .7rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: .5rem 0 .75rem 0;
+  line-height: 1.9rem;
+}
+
+.date {
+  font-weight: 700;
+}
+
+.description {
+  margin: .6rem 0 0 0;
+  width: 95%;
+}
