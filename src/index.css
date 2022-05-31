@@ -9,3 +9,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+a {
+  color: #918E9B;
+  font-size: .65rem;
+}
+
+a:visited {
+  color: #807d88;
+}
